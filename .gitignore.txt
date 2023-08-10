@@ -1,0 +1,13 @@
+__pycache__/
+.eggs/
+eggs/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+instance/
+.webassets-cache
+.env
+.venv
+venv/
+
+.ropeproject
