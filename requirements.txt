@@ -1,6 +1,7 @@
 pandas
 Flask
-claude
-
-
+git+https://github.com/AshwinPathi/claude-api-py.git
+sseclient-py
+claude-api-py
+sseclient-py
 #-e .
