@@ -21,7 +21,7 @@ def process():
     json_file_path = os.path.join('uploads', 'results.json')
 
     out_csv_path = transform(json_file_path, 'output.csv')
-    response = answer('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', out_csv_path, message)
+    response = answer('YOUR_API_KEY', out_csv_path, message)
     return render_template('results.html', response=json.dumps(response, indent=4))
 
 def transform(json_file_path, out_csv_path):
